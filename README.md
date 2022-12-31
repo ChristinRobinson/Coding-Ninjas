@@ -1,2 +1,3 @@
 # Coding-Ninjas
-Educational Purpose
+
+Career Camp - Full Stack Web Development
