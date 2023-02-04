@@ -1,8 +1,7 @@
 body {
-    background-image: url(macbook_mouse.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-image: url('./assets/macbook_mouse.jpg');
+    background-repeat: repeat-y;
+    background-size: contain;
 }
 
 header h1 {
