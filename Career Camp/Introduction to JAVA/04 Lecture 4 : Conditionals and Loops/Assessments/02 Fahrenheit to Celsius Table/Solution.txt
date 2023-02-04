@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Solution {
+
+	public static void main(String[] args) {
+        
+    Scanner scan = new Scanner(System.in);
+    
+    int S,E,W,C;
+    
+    S = scan.nextInt();
+    E = scan.nextInt();
+    W = scan.nextInt();
+    
+    if((S>=0 && S<=90) && (E>=S && E<=900) && (W>=0 && W<=80)) {
+      
+      while(S <= E) {
+          
+        C = ((S-32)*5)/9;
+        System.out.println(S + " " + C);
+        S = S+W;
+      }
+    }
+	}
+}
