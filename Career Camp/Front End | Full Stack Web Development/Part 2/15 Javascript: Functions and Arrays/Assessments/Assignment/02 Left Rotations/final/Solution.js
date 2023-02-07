@@ -1,6 +1,13 @@
 //Write your function here
 
-function rotateLeft(arr) {}
+function rotateLeft(arr) {
+	var newArr = [];
+	for (var i = 0; i < arr.length; i++) {
+		newArr.push(arr[i]);
+	}
+	newArr.push(arr[0]);
+	return newArr;
+}
 
 // Input and output has already been handled for you
 

@@ -2,6 +2,11 @@
 
 function duplicate(arr) {
 	// Write Logic here
+	var n = arr.length;
+	for (let i = 0; i < n; i++) {
+		arr.push(arr[i]);
+	}
+	return arr;
 }
 
 // Input and output has already been handled for you
