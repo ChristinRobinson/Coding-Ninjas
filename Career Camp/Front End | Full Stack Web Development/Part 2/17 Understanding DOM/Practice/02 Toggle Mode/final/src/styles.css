@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body.darkmode {
+  background-color: black;
+  color: white;
+}
+
+#toggler {
+  background-color: black;
+  border: 3px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 100px auto;
+  width: 100px;
+}
+
+#toggler::after {
+  content: '';
+  background-color: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: block;
+}
+
+#toggler.darkmode {
+  background-color: white;
+  border-color: white;
+}
+
+#toggler.darkmode::after {
+  background-color: black;
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
